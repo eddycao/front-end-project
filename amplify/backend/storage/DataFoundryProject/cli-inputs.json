@@ -1,0 +1,12 @@
+{
+  "resourceName": "DataFoundryProject",
+  "policyUUID": "3a40551b",
+  "bucketName": "datafoundryprojecte91cc09371be42d59985449806069",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "groupAccess": {}
+}

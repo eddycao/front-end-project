@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-datafoundryproject-dev-81db6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::051826741666:role/amplify-datafoundryproject-dev-81db6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::051826741666:role/amplify-datafoundryproject-dev-81db6-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-datafoundryproject-dev-81db6-deployment",
+      "UnauthRoleName": "amplify-datafoundryproject-dev-81db6-unauthRole",
+      "StackName": "amplify-datafoundryproject-dev-81db6",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:051826741666:stack/amplify-datafoundryproject-dev-81db6/c7b2de10-f68b-11ef-9acb-060ccfd93ef5",
+      "AmplifyAppId": "d2qahmrcq0puuv"
+    },
+    "categories": {
+      "auth": {
+        "datafoundryproject2db60687": {}
+      }
+    }
+  },
+  "newdev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-datafoundryproject-newdev-091bb-authRole",
+      "UnauthRoleArn": "arn:aws:iam::051826741666:role/amplify-datafoundryproject-newdev-091bb-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::051826741666:role/amplify-datafoundryproject-newdev-091bb-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-datafoundryproject-newdev-091bb-deployment",
+      "UnauthRoleName": "amplify-datafoundryproject-newdev-091bb-unauthRole",
+      "StackName": "amplify-datafoundryproject-newdev-091bb",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:051826741666:stack/amplify-datafoundryproject-newdev-091bb/4e576230-f69e-11ef-8d60-02441ad236e3",
+      "AmplifyAppId": "d2qahmrcq0puuv"
+    },
+    "categories": {
+      "auth": {
+        "datafoundryproject2db60687": {}
+      },
+      "storage": {
+        "DataFoundryProject": {}
+      },
+      "api": {
+        "newApi": {}
+      }
+    }
+  }
+}

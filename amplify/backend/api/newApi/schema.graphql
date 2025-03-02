@@ -1,0 +1,26 @@
+type ServiceRequest @model
+  @auth(rules: [
+    { 
+     allow: private, 
+     provider: userPools, 
+     operations: [create, read] 
+   },
+   { 
+     allow: owner, 
+     ownerField: "owner", 
+     identityClaim: "cognito:username", 
+     operations: [create, read, update, delete]
+   }
+  ]) {
+  id: ID!
+  caseNumber: String!
+  serviceRequestName: String!
+  serviceRequestDescription: String!
+  creationDate: AWSDate!
+  severity: String!
+  resolutionDate: AWSDate!
+  reporterName: String!
+  contactInformation: String!
+  location: String!
+  owner: String
+}
