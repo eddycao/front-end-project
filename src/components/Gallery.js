@@ -128,7 +128,7 @@ function Gallery() {
 
   const containerStyle = {
     position: 'relative',
-    width: '1200px',
+    width: '100%',
     height: '400px',
     margin: '0 auto',
     overflow: 'hidden',

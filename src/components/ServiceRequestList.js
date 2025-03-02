@@ -12,7 +12,7 @@ function ServiceRequestList({ requests }) {
   }
 
   const outerWrapper = {
-    width: '80%',
+    width: '100%',
     maxWidth: '1200px',
     margin: '20px auto'
   };
